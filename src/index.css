@@ -1,0 +1,88 @@
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-family: var(--brand-font-family, "Helvetica Neue", Arial, sans-serif);
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+/* Custom Bootstrap Overrides */
+.btn-primary,
+.text-primary,
+.bg-primary,
+.btn-outline-primary:hover {
+  background-color: var(--brand-primary-color, #0644a7) !important;
+  color: #fff !important;
+  /* Ensure text is visible on a black background */
+  border-width: 2px !important;
+  border-color: #000 !important;
+}
+
+.btn-outline-primary {
+  background-color: #fff !important;
+  color: #000 !important;
+  /* Ensure text is visible on a black background */
+  border-color: #000 !important;
+  border-width: 2px !important;
+}
+
+.btn-light {
+  background-color: #fff !important;
+}
+
+a.text-primary {
+  color: var(--brand-primary-color, #0644a7) !important;
+}
+
+a.text-primary:hover,
+a.text-primary:focus {
+  color: #555 !important;
+  /* Slightly lighter shade for hover/focus state */
+}
+
+input[type="checkbox"] {
+  border: 2px solid #000 !important;
+  border-radius: 0px !important;
+}
+
+.custom-link-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  border: none !important;
+}
+
+.custom-link-btn:hover {
+  text-decoration: underline;
+  color: var(--brand-primary-color, #0644a7) !important;
+  border: none !important;
+  text-decoration-line: none;
+}
+
+.custom-link-btn svg {
+  margin-left: 8px;
+  transition: transform 0.2s ease;
+}
+
+.custom-link-btn:hover svg {
+  transform: translateX(4px);
+}
+
+.custom-h1 {
+  color: var(--brand-primary-color, #0644a7);
+}
+
+section {
+  padding: 20px 0;
+}
+
+.nav-item.active > a {
+  color: var(--brand-primary-color, #0644a7);
+}
