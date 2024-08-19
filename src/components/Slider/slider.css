@@ -1,0 +1,18 @@
+/* ImageCarousel.css */
+.carousel-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Hide overflow to ensure uniform appearance */
+  position: relative; /* Positioning for aspect ratio */
+  padding-bottom: 42%; /* 16:9 Aspect Ratio */
+}
+
+.carousel-image-container img {
+  position: absolute; /* Allow absolute positioning to fill container */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures image fills the container while maintaining aspect ratio */
+}

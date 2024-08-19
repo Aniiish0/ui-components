@@ -1,0 +1,42 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+
+# ----------------------------------------------------------------
+# Please follow below commit format to commit successfully.
+# ----------------------------------------------------------------
+
+# <type>[optional scope]: <description>
+
+# [optional body]
+
+# [optional footer(s)]
+
+# ----------------------------------------------------------------
+# <type> list
+# ----------------------------------------------------------------
+
+# feat:, fix:, build:, chore:, ci:, docs:, style:, refactor:, perf:, test:
+
+# ----------------------------------------------------------------
+# Example-1
+# ----------------------------------------------------------------
+
+# fix: prevent racing of requests
+
+# Introduce a request id and a reference to latest request. Dismiss
+# incoming responses other than from latest request.
+
+# Remove timeouts which were used to mitigate the racing issue but are
+# obsolete now.
+
+# Reviewed-by: Z
+# Refs: #123
+
+# ----------------------------------------------------------------
+# Example-2
+# ----------------------------------------------------------------
+
+# feat(api)!: send an email to the customer when a product is shipped
+
+# ! is used to draw attention to breaking change
