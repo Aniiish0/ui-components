@@ -10,7 +10,8 @@
   "exports": {
     ".": {
       "import": "./dist/ui-components.js",
-      "require": "./dist/ui-components.umd.js"
+      "require": "./dist/ui-components.umd.js",
+      "types": "./dist/index.d.ts"
     }
   },
   "files": [
