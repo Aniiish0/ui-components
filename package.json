@@ -1,7 +1,7 @@
 {
   "name": "@proto-xyz/ui-components",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "license": "MIT",
   "main": "dist/ui-components.umd.cjs",
@@ -10,7 +10,8 @@
   "exports": {
     ".": {
       "import": "./dist/ui-components.js",
-      "require": "./dist/ui-components.umd.js"
+      "require": "./dist/ui-components.umd.js",
+      "types": "./dist/index.d.ts"
     }
   },
   "files": [
