@@ -1,18 +1,28 @@
 {
-  "name": "ui-components",
+  "name": "@proto-xyz/ui-components",
   "private": false,
   "version": "0.0.0",
   "type": "module",
   "license": "MIT",
-  "main": "dist/ui-components.js",
-  "module": "dist/ui-components.umd.cjs",
+  "main": "dist/ui-components.umd.cjs",
+  "module": "dist/ui-components.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/ui-components.js",
+      "require": "./dist/ui-components.umd.js"
+    }
+  },
   "files": [
-    "dist"
+    "/dist"
   ],
-  "types": "dist/types/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "prepare": "npm run build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0 && prettier --check .",
     "format": "prettier --write .",
     "preview": "vite preview",

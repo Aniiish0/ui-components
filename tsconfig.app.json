@@ -17,7 +17,8 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "declaration": true, // Ensure declaration files are generated
-    "declarationDir": "dist/types", // Output declaration files to dist/types
+    "declarationDir": "dist", // Output declaration files to dist/types
+    "typeRoots": ["./dist/index.d.ts"],
     "outDir": "dist", // Output compiled files to dist
 
     /* Linting */

@@ -17,7 +17,7 @@ export default defineConfig({
   base: repoName === null ? "/" : `/${repoName}/`,
   build: {
     lib: {
-      entry: "src/index.ts",
+      entry: path.resolve(__dirname, "src/index.ts"),
       name: "ui-components",
     },
     rollupOptions: {
@@ -30,14 +30,8 @@ export default defineConfig({
         },
       },
     },
+    sourcemap: true,
+    emptyOutDir: true,
   },
-  plugins: [
-    react(),
-    dts({
-      tsconfigPath: path.resolve(__dirname, "tsconfig.json"),
-      outDir: "dist/types", // Specify the output directory for .d.ts files
-      insertTypesEntry: true, // Create a "types" entry point in package.json
-      include: ["src/**/*.ts", "src/**/*.tsx", "src/index.d.ts"],
-    }),
-  ],
+  plugins: [react(), dts()],
 });
