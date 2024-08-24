@@ -1,3 +1,8 @@
+import "./styles/index.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "bootstrap-icons/font/bootstrap-icons.css";
+
 export { default as Button } from "./components/Button";
 export { default as CheckBox } from "./components/CheckBox";
 export { default as CollapseCard } from "./components/CollapseCard";
