@@ -1,10 +1,14 @@
 // ImageCarousel.tsx
 import React from "react";
+
+/* CSS imports */
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import "./slider.css";
+
+/* Component imports */
 import { Carousel } from "react-responsive-carousel";
 
 import { SliderProps } from "./types";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import "./slider.css";
 
 const Slider: React.FC<SliderProps> = ({ images }) => {
   return (

@@ -7,11 +7,15 @@
   "main": "dist/ui-components.umd.cjs",
   "module": "dist/ui-components.js",
   "types": "dist/index.d.ts",
+  "style": "dist/style.css",
   "exports": {
     ".": {
       "import": "./dist/ui-components.js",
       "require": "./dist/ui-components.umd.js",
       "types": "./dist/index.d.ts"
+    },
+    "./styles": {
+      "default": "./dist/style.css"
     }
   },
   "files": [
