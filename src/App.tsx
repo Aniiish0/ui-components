@@ -1,7 +1,9 @@
 import React from "react";
+
+/* component imports */
 import { Container } from "react-bootstrap";
 import { Form } from ".";
-import { FieldConfig } from ".";
+import type { FieldConfig } from ".";
 
 interface ContactFormState {
   name: string;
