@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - "chore(release):*"
 
 jobs:
   release:
@@ -21,6 +23,11 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+
+      - name: Set Git user
+        run: |
+          git config user.email "subratpatnaik.email@gmail.com"
+          git config user.name "Subrat Kumar Pattanaik"
 
       - name: Create release
         run: npm run release
