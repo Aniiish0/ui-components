@@ -4,6 +4,15 @@ on:
   push:
     branches:
       - main
+      - dev
+  pull_request:
+    branches:
+      - main
+      - dev
+    types:
+      - opened
+      - synchronize # Run the workflow when new commits are pushed to the PR
+      - reopened
 
 jobs:
   build:
@@ -24,9 +33,3 @@ jobs:
 
       - name: Build project
         run: npm run build
-
-      - name: Upload production-ready build files
-        uses: actions/upload-artifact@v3
-        with:
-          name: production-files
-          path: ./dist
