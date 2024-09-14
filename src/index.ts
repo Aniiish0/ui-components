@@ -12,6 +12,7 @@ export { default as MapView } from "./components/MapView";
 export { default as Slider } from "./components/Slider";
 export { default as TextArea } from "./components/TextArea";
 export { default as TextInput } from "./components/TextInput";
+export { default as ChatbotButton } from "./components/ChatbotButton";
 
 export type {
   ButtonProps,
@@ -35,3 +36,4 @@ export type { MapViewProps } from "./components/MapView/types";
 export type { SliderProps } from "./components/Slider/types";
 export type { TextAreaProps } from "./components/TextArea/types";
 export type { TextInputProps } from "./components/TextInput/types";
+export type { ChatbotButtonProps } from "./components/ChatbotButton/types";

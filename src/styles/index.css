@@ -86,3 +86,51 @@ section {
 .nav-item.active > a {
   color: var(--brand-primary-color, #0644a7);
 }
+
+.chatbot-parent-div {
+  position: fixed;
+  bottom: var(--chatbot-bottom-space, 30px);
+  right: var(--chatbot-right-space, 30px);
+}
+
+.chatbot-button {
+  background-color: var(--brand-primary-color, #0644a7);
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  z-index: 999;
+  border: none;
+  border-radius: 50%;
+}
+
+.chatbot-div {
+  position: fixed;
+  bottom: var(--chatbot-iframe-bottom-space, 100px);
+  right: var(--chatbot-iframe-right-space, 30px);
+  width: 375px;
+  height: 531px;
+  z-index: 999;
+  border-radius: var(--chatbot-iframe-border-radius, 7px);
+}
+
+/* Media query for screen widths below 408px */
+@media screen and (max-width: 408px) {
+  .chatbot-div {
+    right: 5px;
+  }
+}
+
+/* Media query for screen widths below 380px */
+@media screen and (max-width: 380px) {
+  .chatbot-div {
+    right: 0px;
+  }
+}
+
+.chatbot-frame {
+  width: 100%;
+  height: 100%;
+  border: "none";
+  border-radius: var(--chatbot-iframe-border-radius, 7px);
+}
