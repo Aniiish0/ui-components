@@ -4,6 +4,9 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import { Form } from ".";
 import type { FieldConfig } from ".";
+import { ChatbotButton } from ".";
+
+import { CHATBOT_URL } from "./constants";
 
 interface ContactFormState {
   name: string;
@@ -69,11 +72,16 @@ const ContactForm: React.FC = () => {
       <h1 className="custom-h1">Contact us</h1>
       <br />
       <p>Please fill free to reach out to us regarding any queries.</p>
+
+      {/* form component */}
       <Form
         initialValues={initialValues}
         fields={fields}
         onSubmit={handleSubmit}
       />
+
+      {/* chatbot button component */}
+      <ChatbotButton chatbotUrl={CHATBOT_URL} />
     </Container>
   );
 };
