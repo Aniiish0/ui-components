@@ -2,12 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### 0.0.7 (2024-09-28)
+### [0.0.8](https://github.com/Aniiish0/ui-components/compare/v0.0.7...v0.0.8) (2024-09-28)
 
+### 0.0.7 (2024-09-28)
 
 ### Bug Fixes
 
-* ci/cd tag automation ([#20](https://github.com/Aniiish0/ui-components/issues/20)) ([4f732cd](https://github.com/Aniiish0/ui-components/commit/4f732cd00d0712fab762e1f28670a8c79084dcca))
+- ci/cd tag automation ([#20](https://github.com/Aniiish0/ui-components/issues/20)) ([4f732cd](https://github.com/Aniiish0/ui-components/commit/4f732cd00d0712fab762e1f28670a8c79084dcca))
 
 ### 0.0.6 (2024-09-14)
 
