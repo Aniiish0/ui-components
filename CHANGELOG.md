@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.11 (2024-10-02)
+
+
+### Bug Fixes
+
+* double version bump on merge ([#23](https://github.com/Aniiish0/ui-components/issues/23)) ([d613fb4](https://github.com/Aniiish0/ui-components/commit/d613fb47a5b49e88480de674e1ece6986e8e7e4d))
+
 ### [0.0.10](https://github.com/Aniiish0/ui-components/compare/v0.0.9...v0.0.10) (2024-10-02)
 
 ### 0.0.9 (2024-10-02)
