@@ -91,6 +91,7 @@ section {
   position: fixed;
   bottom: var(--chatbot-bottom-space, 30px);
   right: var(--chatbot-right-space, 30px);
+  z-index: var(--chatbot-z-index, 999);
 }
 
 .chatbot-button {
@@ -99,7 +100,6 @@ section {
   width: 50px;
   height: 50px;
   cursor: pointer;
-  z-index: 999;
   border: none;
   border-radius: 50%;
 }
@@ -110,7 +110,6 @@ section {
   right: var(--chatbot-iframe-right-space, 30px);
   width: 375px;
   height: 531px;
-  z-index: 999;
   border-radius: var(--chatbot-iframe-border-radius, 7px);
 }
 
