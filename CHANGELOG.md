@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### 0.0.9 (2024-10-02)
 
-
 ### Bug Fixes
 
-* chatbot btn z-index ([#21](https://github.com/Aniiish0/ui-components/issues/21)) ([#22](https://github.com/Aniiish0/ui-components/issues/22)) ([1a7f553](https://github.com/Aniiish0/ui-components/commit/1a7f55302a02573ffba87ded42d9c50cad792f3d))
+- chatbot btn z-index ([#21](https://github.com/Aniiish0/ui-components/issues/21)) ([#22](https://github.com/Aniiish0/ui-components/issues/22)) ([1a7f553](https://github.com/Aniiish0/ui-components/commit/1a7f55302a02573ffba87ded42d9c50cad792f3d))
 
 ### [0.0.8](https://github.com/Aniiish0/ui-components/compare/v0.0.7...v0.0.8) (2024-09-28)
 
